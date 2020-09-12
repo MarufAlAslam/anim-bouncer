@@ -1,0 +1,52 @@
+p{
+				position:absolute;
+				font-size:70px;
+				margin-top:35px;
+				color:green;
+				font-weight:bold;
+				left:35%;
+				font-family: 'Long Cang', cursive;
+				
+				}
+hr{
+				margin:1000px 100px;
+				border:5px solid red;
+				position:relative;
+				}
+.test{
+				display:block;
+				width:100px;
+				height:100px;
+				position:absolute;
+				top:10%;
+				left:45%;
+				border-radius:50%;
+			
+				animation:myanim 3s infinite linear;
+				}
+				
+	@keyframes myanim{
+					0%{
+									background:green;
+									
+									}
+					50%{
+									background:green;
+									width:100px;
+									height:100px;
+									top:48%;
+									}
+					51%{
+									width:120px;
+									background:red;
+									}
+						55%{
+									width:100px;
+									background:red;
+									}
+					100%{
+									background:green;
+									width:100px;
+									height:100px;
+									}
+					}
